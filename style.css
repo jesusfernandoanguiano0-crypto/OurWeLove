@@ -835,6 +835,7 @@ cite {
 @media (max-width: 480px) {
   /* Gallery single column */
   .gallery-grid { grid-template-columns: 1fr; }
+  .gallery-wide, .gallery-item[style*="grid-column"] { grid-column: span 1 !important; }
 
   /* Counter: hide dots, tighter */
   .counter-boxes { gap: .2rem; }
