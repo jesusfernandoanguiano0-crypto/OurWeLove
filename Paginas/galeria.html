@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -148,4 +149,157 @@
 
   <script src="../JavaScript.js"></script>
 </body>
+=======
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Galería · Fernando & Amairany</title>
+  <link rel="stylesheet" href="../style.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Montserrat:wght@200;300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <canvas id="particles"></canvas>
+
+  <!-- NAV -->
+  <nav class="nav">
+    <a href="../index.html" class="nav-logo">F & A</a>
+    <button class="nav-toggle" id="nav-toggle" aria-label="Menú"><span></span><span></span><span></span></button>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="../index.html">Inicio</a></li>
+      <li><a href="galeria.html" class="active">Galería</a></li>
+      <li><a href="carta.html">Carta</a></li>
+      <li><a href="nosotros.html">Nosotros</a></li>
+    </ul>
+  </nav>
+
+  <!-- HEADER -->
+  <header class="page-header">
+    <span class="sub">nuestros momentos</span>
+    <h1>Galería</h1>
+  </header>
+
+  <!-- GALLERY GRID -->
+  <section class="gallery-section">
+    <div class="gallery-grid">
+
+      <!-- Foto 1 -->
+      <div class="gallery-item" data-src="../Fotos/foto1.jpeg">
+        <img src="../Fotos/foto1.jpeg" alt="Foto 1"
+            onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+        <div class="photo-placeholder" style="display:none;">
+          <span>📷</span>
+          <p style="font-size:.55rem; opacity:.4;">Reemplaza con fotos/foto1.jpg</p>
+        </div>
+        <div class="gallery-overlay"><span class="gallery-num">01</span></div>
+      </div>
+
+      <!-- Foto 2 -->
+      <div class="gallery-item" data-src="../Fotos/foto2.jpeg">
+        <img src="../Fotos/foto2.jpeg" alt="Foto 2"
+            onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+        <div class="photo-placeholder" style="display:none;">
+          <span>📷</span>
+          <p style="font-size:.55rem; opacity:.4;">Reemplaza con fotos/foto2.jpg</p>
+        </div>
+        <div class="gallery-overlay"><span class="gallery-num">02</span></div>
+      </div>
+
+      <!-- Foto 3 -->
+      <div class="gallery-item" data-src="../Fotos/foto3.jpeg">
+        <img src="../Fotos/foto3.jpeg" alt="Foto 3"
+            onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+        <div class="photo-placeholder" style="display:none;">
+          <span>📷</span>
+          <p style="font-size:.55rem; opacity:.4;">Reemplaza con fotos/foto3.jpg</p>
+        </div>
+        <div class="gallery-overlay"><span class="gallery-num">03</span></div>
+      </div>
+
+      <!-- Foto 4 (grande) -->
+      <div class="gallery-item gallery-wide" data-src="../Fotos/foto4.jpeg" style="grid-column: span 2;">
+        <img src="../Fotos/foto4.jpeg" alt="Foto 4"
+            onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+        <div class="photo-placeholder" style="display:none;">
+          <span>📷</span>
+          <p style="font-size:.55rem; opacity:.4;">Reemplaza con fotos/foto4.jpg</p>
+        </div>
+        <div class="gallery-overlay"><span class="gallery-num">04</span></div>
+      </div>
+
+      <!-- Foto 5 -->
+      <div class="gallery-item" data-src="../Fotos/foto5.jpeg">
+        <img src="../Fotos/foto5.jpeg" alt="Foto 5"
+            onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+        <div class="photo-placeholder" style="display:none;">
+          <span>📷</span>
+          <p style="font-size:.55rem; opacity:.4;">Reemplaza con fotos/foto5.jpg</p>
+        </div>
+        <div class="gallery-overlay"><span class="gallery-num">05</span></div>
+      </div>
+
+      <!-- Foto 6 -->
+      <div class="gallery-item" data-src="../Fotos/foto6.jpeg">
+        <img src="../Fotos/foto6.jpeg" alt="Foto 6"
+            onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+        <div class="photo-placeholder" style="display:none;">
+          <span>📷</span>
+          <p style="font-size:.55rem; opacity:.4;">Reemplaza con fotos/foto6.jpg</p>
+        </div>
+        <div class="gallery-overlay"><span class="gallery-num">06</span></div>
+      </div>
+
+      <!-- Foto 7 -->
+      <div class="gallery-item" data-src="../Fotos/foto7.jpeg">
+        <img src="../Fotos/foto7.jpeg" alt="Foto 7"
+            onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+        <div class="photo-placeholder" style="display:none;">
+          <span>📷</span>
+          <p style="font-size:.55rem; opacity:.4;">Reemplaza con fotos/foto7.jpg</p>
+        </div>
+        <div class="gallery-overlay"><span class="gallery-num">07</span></div>
+      </div>
+
+      <!-- Foto 8 -->
+      <div class="gallery-item" data-src="../Fotos/foto8.jpeg">
+        <img src="../Fotos/foto8.jpeg" alt="Foto 8"
+            onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+        <div class="photo-placeholder" style="display:none;">
+          <span>📷</span>
+          <p style="font-size:.55rem; opacity:.4;">Reemplaza con fotos/foto8.jpg</p>
+        </div>
+        <div class="gallery-overlay"><span class="gallery-num">08</span></div>
+      </div>
+
+      <!-- Foto 9 -->
+      <div class="gallery-item" data-src="../Fotos/foto9.jpeg">
+        <img src="../Fotos/foto9.jpeg" alt="Foto 9"
+            onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+        <div class="photo-placeholder" style="display:none;">
+          <span>📷</span>
+          <p style="font-size:.55rem; opacity:.4;">Reemplaza con fotos/foto9.jpg</p>
+        </div>
+        <div class="gallery-overlay"><span class="gallery-num">09</span></div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- LIGHTBOX -->
+  <div class="lightbox" id="lightbox">
+    <span class="lightbox-close" id="lightbox-close">✕</span>
+    <img id="lightbox-img" src="" alt="Foto ampliada"/>
+  </div>
+
+  <footer class="footer">
+    <p>Hecho con mucho <span class="heart-red">amorcito</span> por mi, para ti mi amor</p>
+    <p class="footer-date">01 · 03 · 2026</p>
+  </footer>
+
+  <script src="../JavaScript.js"></script>
+</body>
+>>>>>>> f77f20e (act)
 </html>

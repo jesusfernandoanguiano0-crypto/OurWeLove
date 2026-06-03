@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -125,4 +126,134 @@
     if (el) el.textContent = days;
   </script>
 </body>
+=======
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Nosotros · Fernando & Amairany</title>
+  <link rel="stylesheet" href="../style.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Montserrat:wght@200;300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <canvas id="particles"></canvas>
+
+  <!-- NAV -->
+  <nav class="nav">
+    <a href="../index.html" class="nav-logo">F & A</a>
+    <button class="nav-toggle" id="nav-toggle" aria-label="Menú"><span></span><span></span><span></span></button>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="../index.html">Inicio</a></li>
+      <li><a href="galeria.html">Galería</a></li>
+      <li><a href="carta.html">Carta</a></li>
+      <li><a href="nosotros.html" class="active">Nosotros</a></li>
+    </ul>
+  </nav>
+
+  <!-- HEADER -->
+  <header class="page-header">
+    <span class="sub">nuestra historia</span>
+    <h1>Nosotros</h1>
+  </header>
+
+  <!-- TIMELINE -->
+  <section class="timeline-section">
+
+    <div class="timeline">
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-card">
+          <span class="t-date">El principio</span>
+          <h3>Nos conocimos</h3>
+          <p>El momento en el que te conoci. Nada volvió a ser igual después de eso.</p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-card">
+          <span class="t-date">1 de Marzo, 2026</span>
+          <h3>Juntos oficialmente</h3>
+          <p>El día que decidimos que lo nuestro era real, que valía la pena, y que queríamos vivirlo sin dudas.</p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-card">
+          <span class="t-date">Cada día</span>
+          <h3>Momentos juntos</h3>
+          <p>Risas, aventuras, conversaciones, y esa sensación de que el tiempo pasa más rápido cuando estamos juntos.</p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-card">
+          <span class="t-date">Hoy y siempre</span>
+          <h3>Nuestro futuro</h3>
+          <p>Todo lo que está por venir: nuevas aventuras, más recuerdos, y seguir eligiéndonos cada mañana.</p>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- PHOTO PAIR -->
+    <div class="us-photos">
+      <div class="us-photo">
+        <img src="../Fotos/foto10.jpeg" alt="Nosotros"
+            onerror="this.style.display='none'; this.parentElement.style.background='rgba(201,116,138,.08)';">
+      </div>
+      <div class="us-photo">
+        <img src="../Fotos/foto11.jpeg" alt="Nosotros"
+            onerror="this.style.display='none'; this.parentElement.style.background='rgba(201,169,110,.06)';">
+      </div>
+    </div>
+
+    <!-- LITTLE FACTS -->
+    <div class="facts-grid">
+      <div class="fact-card">
+        <span class="fact-icon">♥</span>
+        <span class="fact-label">Juntos desde</span>
+        <span class="fact-value">01 · 03 · 2026</span>
+      </div>
+      <div class="fact-card">
+        <span class="fact-icon">✦</span>
+        <span class="fact-label">Días juntos</span>
+        <span class="fact-value" id="days-us">—</span>
+      </div>
+      <div class="fact-card">
+        <span class="fact-icon">✿</span>
+        <p><span class="heart-red">♥</span> <span class="fact-label">Tup</span> <span class="heart-red">♥</span></p>
+        <span class="fact-value">Amairany</span>
+      </div>
+      <div class="fact-card">
+        <span class="fact-icon">◈</span>
+        <p><span class="heart-red">♥</span> <span class="fact-label">Yop</span> <span class="heart-red">♥</span></p>
+        <span class="fact-value">Fernando</span>
+      </div>
+    </div>
+
+  </section>
+
+  <footer class="footer">
+    <p>Hecho con mucho <span class="heart-red">amorcito</span> por mi, para ti mi amor</p>
+    <p class="footer-date">01 · 03 · 2026</p>
+  </footer>
+
+  <script src="../JavaScript.js"></script>
+  <script>
+    // Days counter for this page
+    const start = new Date('2026-03-01T00:00:00');
+    const diff  = new Date() - start;
+    const days  = Math.max(0, Math.floor(diff / 86400000));
+    const el    = document.getElementById('days-us');
+    if (el) el.textContent = days;
+  </script>
+</body>
+>>>>>>> f77f20e (act)
 </html>
